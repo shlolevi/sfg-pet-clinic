@@ -1,4 +1,4 @@
-package com.example.sfgpetclinic;
+package guru.sprintframework.sfgpetclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -8,6 +8,7 @@ class SfgPetClinicApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
