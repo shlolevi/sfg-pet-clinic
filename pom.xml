@@ -23,13 +23,25 @@
 			<java.version>13</java.version>
 		</properties>
 
+
 		<build>
 			<plugins>
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
 				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.5.3</version>
+					<configuration>
+						<goals>install</goals>
+						<autoVersionSubmodules>true</autoVersionSubmodules>
+					</configuration>
+				</plugin>
 			</plugins>
 		</build>
-
+<scm>
+	<developerConnection>scm:git:https://github.com/shlolevi/sfg-pet-clinic.git</developerConnection>
+</scm>
 </project>
