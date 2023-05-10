@@ -1,11 +1,11 @@
 package guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.map;
 
 import guru.sprintframework.sfgpetclinic.model.Pet;
-import guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.CrudService;
+import guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {

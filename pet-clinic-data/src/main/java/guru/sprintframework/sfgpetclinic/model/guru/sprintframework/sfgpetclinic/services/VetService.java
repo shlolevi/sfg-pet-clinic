@@ -2,6 +2,6 @@ package guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclini
 
 import guru.sprintframework.sfgpetclinic.model.Vet;
 
-public interface vetService extends  CrudService<Vet, Long> {
+public interface VetService extends  CrudService<Vet, Long> {
 
 }
