@@ -2,5 +2,5 @@ package guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclini
 
 import guru.sprintframework.sfgpetclinic.model.Speciality;
 
-public interface SpecialtiesService extends  CrudService<Speciality,Long> {
+public interface SpecialtyService extends  CrudService<Speciality,Long> {
 }
