@@ -1,16 +1,16 @@
-package guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.map;
+package guru.sprintframework.sfgpetclinic.services.map;
 
 import guru.sprintframework.sfgpetclinic.model.Owner;
 import guru.sprintframework.sfgpetclinic.model.Pet;
-import guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.OwnerService;
-import guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.PetService;
-import guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.PetTypeService;
+import guru.sprintframework.sfgpetclinic.services.OwnerService;
+import guru.sprintframework.sfgpetclinic.services.PetService;
+import guru.sprintframework.sfgpetclinic.services.PetTypeService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService{
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     private final PetTypeService petTypeService;
     private final PetService petService;

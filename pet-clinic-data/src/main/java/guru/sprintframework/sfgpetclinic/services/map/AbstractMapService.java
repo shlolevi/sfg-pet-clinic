@@ -1,4 +1,4 @@
-package guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.map;
+package guru.sprintframework.sfgpetclinic.services.map;
 
 import guru.sprintframework.sfgpetclinic.model.BaseEntity;
 

@@ -1,7 +1,7 @@
-package guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.map;
+package guru.sprintframework.sfgpetclinic.services.map;
 
 import guru.sprintframework.sfgpetclinic.model.Speciality;
-import guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.SpecialtyService;
+import guru.sprintframework.sfgpetclinic.services.SpecialtyService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;

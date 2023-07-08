@@ -1,10 +1,10 @@
 package guru.sprintframework.sfgpetclinic.bootstrap;
 
 import guru.sprintframework.sfgpetclinic.model.*;
-import guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.OwnerService;
-import guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.PetTypeService;
-import guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.SpecialtyService;
-import guru.sprintframework.sfgpetclinic.model.guru.sprintframework.sfgpetclinic.services.VetService;
+import guru.sprintframework.sfgpetclinic.services.OwnerService;
+import guru.sprintframework.sfgpetclinic.services.PetTypeService;
+import guru.sprintframework.sfgpetclinic.services.SpecialtyService;
+import guru.sprintframework.sfgpetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
